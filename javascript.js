@@ -19,6 +19,8 @@ let aPerson = {
 
 aPerson.sayHello = function() {console.log('Bonjour ! Je suis ' + this.name + '.'); };
 
+aPerson.sayHello();
+
 // jour de la semmaine
 let day;
 switch (new Date().getDay()) {
